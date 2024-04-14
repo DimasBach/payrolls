@@ -116,10 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="../index3.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="../index.php" class="nav-link">Home</a>
                 </li>
             </ul>
 
@@ -146,92 +143,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                         </form>
                     </div>
                 </li>
-
-                <!-- Messages Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-comments"></i>
-                        <span class="badge badge-danger navbar-badge">3</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
-                            <div class="media">
-                                <img src="../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-                                <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        Brad Diesel
-                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">Call me whenever you can...</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div>
-                            </div>
-                            <!-- Message End -->
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
-                            <div class="media">
-                                <img src="../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        John Pierce
-                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">I got your message bro</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div>
-                            </div>
-                            <!-- Message End -->
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <!-- Message Start -->
-                            <div class="media">
-                                <img src="../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                <div class="media-body">
-                                    <h3 class="dropdown-item-title">
-                                        Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
-                                    </h3>
-                                    <p class="text-sm">The subject goes here</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                </div>
-                            </div>
-                            <!-- Message End -->
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
-                    </div>
-                </li>
-                <!-- Notifications Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-bell"></i>
-                        <span class="badge badge-warning navbar-badge">15</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <span class="dropdown-item dropdown-header">15 Notifications</span>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-envelope mr-2"></i> 4 new messages
-                            <span class="float-right text-muted text-sm">3 mins</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-users mr-2"></i> 8 friend requests
-                            <span class="float-right text-muted text-sm">12 hours</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-file mr-2"></i> 3 new reports
-                            <span class="float-right text-muted text-sm">2 days</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-                    </div>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" data-widget="fullscreen" href="#" role="button">
                         <i class="fas fa-expand-arrows-alt"></i>
@@ -248,7 +159,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
 
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
+            <a href="index.php" class="brand-link">
                 <img src="../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
@@ -261,7 +172,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
-                            <a href="../index.html" class="nav-link">
+                            <a href="../index.php" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -316,92 +227,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="slip_gaji.html" class="nav-link">
+                            <a href="slip_gaji.php" class="nav-link">
                                 <i class="nav-icon fas fa-address-card"></i>
                                 <p>
                                     Slip Gaji
                                 </p>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="calendar.html" class="nav-link">
-                                <i class="nav-icon far fa-calendar-alt"></i>
-                                <p>
-                                    Calendar
-                                    <span class="badge badge-info right">2</span>
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-book"></i>
-                                <p>
-                                    Pages
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="examples/invoice.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Invoice</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/profile.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Profile</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/e-commerce.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>E-commerce</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/projects.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Projects</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/project-add.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Project Add</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/project-edit.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Project Edit</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/project-detail.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Project Detail</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/contacts.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Contacts</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/faq.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>FAQ</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="examples/contact-us.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Contact us</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                     </ul>
                 </nav>
@@ -587,13 +418,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                         <?php
                         $sql2 = "SELECT * FROM detail_jabatan";
                         $hasil2 = mysqli_query($koneksi, $sql2);
-                        
-                        
+
+
                         // CRUD UNTUK TABEL DETAIL_JABATAN
                         // Tambah Data
                         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['tambah1'])) {
                             $nama_jabatan1 = $_POST['nama_jabatan'];
-                        
+
                             $sql_tambah1 = "INSERT INTO detail_jabatan (nama_jabatan) VALUES ('$nama_jabatan1')";
                             if (mysqli_query($koneksi, $sql_tambah1)) {
                                 echo "Data detail_jabatan berhasil ditambahkan.";
@@ -602,12 +433,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                                 echo "Error: " . $sql_tambah1 . "<br>" . mysqli_error($koneksi);
                             }
                         }
-                        
+
                         // Operasi Edit Data
                         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['edit1'])) {
                             $id_detail_jabatan1 = $_POST['id_detail_jabatan'];
                             $nama_jabatan1 = $_POST['nama_jabatan'];
-                        
+
                             $sql_edit1 = "UPDATE detail_jabatan SET nama_jabatan='$nama_jabatan1' WHERE id_detail_jabatan='$id_detail_jabatan1'";
                             if (mysqli_query($koneksi, $sql_edit1)) {
                                 echo "Data detail_jabatan berhasil diubah.";
@@ -616,11 +447,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                                 echo "Error: " . $sql_edit1 . "<br>" . mysqli_error($koneksi);
                             }
                         }
-                        
+
                         // Operasi Hapus Data
                         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus1'])) {
                             $id_detail_jabatan1 = $_POST['id_detail_jabatan'];
-                        
+
                             $sql_hapus1 = "DELETE FROM detail_jabatan WHERE id_detail_jabatan='$id_detail_jabatan1'";
                             if (mysqli_query($koneksi, $sql_hapus1)) {
                                 echo "Data detail_jabatan berhasil dihapus.";
@@ -629,7 +460,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                                 echo "Error: " . $sql_hapus1 . "<br>" . mysqli_error($koneksi);
                             }
                         }
-                        
+
                         ?>
 
                         <div class="col-6">
@@ -660,7 +491,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                                             while ($baris2 = mysqli_fetch_assoc($hasil2)) {
                                             ?>
                                                 <tr>
-                                                    <td><?php echo $i++?></td>
+                                                    <td><?php echo $i++ ?></td>
                                                     <td><?php echo $baris2['nama_jabatan'] ?></td>
                                                     <td>
                                                         <a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#modal-default-edit-<?php echo $baris2['id_detail_jabatan']; ?>">
@@ -749,7 +580,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['hapus'])) {
                                                         <!-- /.modal -->
                                                     </td>
                                                 </tr>
-                                            <?php };?>
+                                            <?php }; ?>
                                         </tbody>
                                     </table>
                                 </div>
